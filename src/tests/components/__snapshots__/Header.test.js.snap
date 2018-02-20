@@ -6,18 +6,18 @@ exports[`should render Header correctly 1`] = `
     Expensify
   </h1>
   <NavLink
-    activeClassName="active"
+    activeClassName="is-active"
     ariaCurrent="true"
-    to="/"
+    to="/dashboard"
   >
-    Go Home
+    Dashboard Page
   </NavLink>
   <NavLink
-    activeClassName="active"
+    activeClassName="is-active"
     ariaCurrent="true"
     to="/create"
   >
-    Go AddExpensePage
+    AddExpensePage
   </NavLink>
   <button
     onClick={[Function]}
